@@ -21,6 +21,7 @@ import java.util.Objects;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.lifecycle.ViewModel;
 import es.iessaladillo.pedrojoya.pr05.R;
 import es.iessaladillo.pedrojoya.pr05.data.local.Database;
 import es.iessaladillo.pedrojoya.pr05.data.local.model.Avatar;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initViews();
+        setupReciclerViews();
         initListeners();
     }
 
@@ -164,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
         else lbl.setTypeface(Typeface.DEFAULT);
     }
 
-    private void initViews() {
+    private void setupReciclerViews() {
         //AVATAR
         imgAvatar = ActivityCompat.requireViewById(this, R.id.imgAvatar);
         lblAvatar = ActivityCompat.requireViewById(this, R.id.lblAvatar);

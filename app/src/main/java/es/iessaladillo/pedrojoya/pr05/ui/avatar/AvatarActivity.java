@@ -2,6 +2,7 @@ package es.iessaladillo.pedrojoya.pr05.ui.avatar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -20,7 +21,7 @@ public class AvatarActivity extends AppCompatActivity {
     private Intent extra_avatar;
     private Avatar avatar;
     private int lastAvatar;
-    private int chosenAvatar = 0;
+    private int chosenAvatar;
     private TextView lblAvatar1;
     private ImageView imgAvatar1;
     private TextView lblAvatar2;
@@ -43,13 +44,24 @@ public class AvatarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_avatar);
         initViews();
         initListeners();
-        initIntent();
+        initIntent(savedInstanceState);
     }
 
-    private void initIntent() {
-        extra_avatar = getIntent();
-        avatar = extra_avatar.getParcelableExtra("EXTRA_AVATAR");
-        selectedAvatar((int) avatar.getId());
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("CHOSENAVATAR",chosenAvatar);
+    }
+
+    private void initIntent(Bundle savedInstanceState) {
+        if(savedInstanceState==null){
+            extra_avatar = getIntent();
+            avatar = extra_avatar.getParcelableExtra("EXTRA_AVATAR");
+            selectedAvatar((int) avatar.getId());
+        }else{
+            chosenAvatar = savedInstanceState.getInt("CHOSENAVATAR",0);
+            selectedAvatar(chosenAvatar);
+        }
     }
 
     private void selectedAvatar(int avatarId) {
