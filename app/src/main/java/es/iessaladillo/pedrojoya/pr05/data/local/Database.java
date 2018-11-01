@@ -40,8 +40,6 @@ public class Database {
 
     @VisibleForTesting()
     public void insertAvatar(Avatar avatar) {
-        long id = ++count;
-        avatar.setId(id);
         avatars.add(avatar);
     }
 

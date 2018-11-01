@@ -22,4 +22,12 @@ public class ValidationUtils {
         return !TextUtils.isEmpty(url) && Patterns.WEB_URL.matcher(url).matches();
     }
 
+    public static boolean isValidText(String name){
+        return !TextUtils.isEmpty(name);
+    }
+
+    public static boolean isValidForm(String email,String phoneNumber, String url, String name,String address){
+        return !(isValidEmail(email)&& isValidText(name)&&isValidPhone(phoneNumber)&&isValidUrl(url)&& isValidText(address));
+    }
+
 }
