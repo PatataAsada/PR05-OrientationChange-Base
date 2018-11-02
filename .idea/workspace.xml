@@ -19,8 +19,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29b7b202-5be8-431c-9012-8a289f08d816" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AvatarActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvatarActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+            <state relative-caret-position="816">
+              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#selectAvatar#0;class#AvatarActivity#0" />
@@ -70,12 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="419">
+              <caret line="174" column="55" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="55" />
               <folding>
+                <element signature="e#1107#1140#0" expanded="true" />
                 <element signature="method#avatarListeners#0;class#MainActivity#0" />
                 <element signature="method#changeAvatar#0;class#MainActivity#0" />
                 <element signature="method#onActivityResult#0;class#MainActivity#0" />
@@ -84,11 +83,18 @@
                 <element signature="method#iconListeners#0;class#MainActivity#0" />
                 <element signature="method#focusListeners#0;class#MainActivity#0" />
                 <element signature="method#isFocused#0;class#MainActivity#0" />
-                <element signature="method#initViews#0;class#MainActivity#0" />
+                <element signature="method#setupReciclerViews#0;class#MainActivity#0" />
                 <element signature="method#setDefault#0;class#MainActivity#0" />
                 <element signature="method#checkText#0;class#MainActivity#0" />
+                <element signature="e#10790#10827#0" expanded="true" />
+                <element signature="e#11074#11111#0" expanded="true" />
+                <element signature="e#11524#11561#0" expanded="true" />
+                <element signature="e#11932#11969#0" expanded="true" />
+                <element signature="e#12338#12375#0" expanded="true" />
                 <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
                 <element signature="method#save#0;class#MainActivity#0" />
+                <element signature="e#13311#13353#0" expanded="true" />
+                <element signature="e#13462#13499#0" expanded="true" />
                 <element signature="method#showErrors#0;class#MainActivity#0" />
               </folding>
             </state>
@@ -98,14 +104,12 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/data/local/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="170">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1237#1238#0" expanded="true" />
                 <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +121,27 @@
             <state relative-caret-position="102">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivityRotationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivityRotationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main_profile.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_profile.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2487,8 +2512,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/BaseRecyclerViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/GenericViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/data/local/Database.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2503,8 +2528,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2522,13 +2547,6 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="pr05" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pr05" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
@@ -2556,40 +2574,13 @@
             <path>
               <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pr05" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pr05" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pr05" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="avatar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="YMG-PR05-Orientation-Change" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2731,6 +2722,52 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
       </Profilers>
     </configuration>
+    <configuration name="MainActivityRotation..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="es.iessaladillo.pedrojoya.pr05.ui.main.MainActivityRotationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+      </Profilers>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -2777,9 +2814,11 @@
     <list>
       <item itemvalue="Android App.app" />
       <item itemvalue="Android Instrumented Tests.AvatarActivityRotati..." />
+      <item itemvalue="Android Instrumented Tests.MainActivityRotation..." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.MainActivityRotation..." />
         <item itemvalue="Android Instrumented Tests.AvatarActivityRotati..." />
       </list>
     </recent_temporary>
@@ -2804,6 +2843,15 @@
     <history-entry file="AvatarActivityRotati___ - 2018.11.01 at 16h 25m 33s.xml">
       <configuration name="AvatarActivityRotati..." configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="AvatarActivityRotati___ - 2018.11.02 at 18h 28m 20s.xml">
+      <configuration name="AvatarActivityRotati..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MainActivityRotation___ - 2018.11.02 at 18h 52m 57s.xml">
+      <configuration name="MainActivityRotation..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MainActivityRotation___ - 2018.11.02 at 21h 09m 03s.xml">
+      <configuration name="MainActivityRotation..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2825,7 +2873,6 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32969153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
@@ -2833,7 +2880,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3292683" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2843,6 +2890,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32969153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2872,35 +2920,18 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_avatar.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
           <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="48" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java">
@@ -2921,10 +2952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2932,9 +2959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2943,6 +2967,7 @@
         <state relative-caret-position="3791">
           <caret line="374" lean-forward="true" selection-start-line="374" selection-end-line="374" />
           <folding>
+            <element signature="e#1107#1140#0" expanded="true" />
             <element signature="method#avatarListeners#0;class#MainActivity#0" />
             <element signature="method#changeAvatar#0;class#MainActivity#0" />
             <element signature="method#onActivityResult#0;class#MainActivity#0" />
@@ -2951,45 +2976,52 @@
             <element signature="method#iconListeners#0;class#MainActivity#0" />
             <element signature="method#focusListeners#0;class#MainActivity#0" />
             <element signature="method#isFocused#0;class#MainActivity#0" />
-            <element signature="method#initViews#0;class#MainActivity#0" />
+            <element signature="method#setupReciclerViews#0;class#MainActivity#0" />
             <element signature="method#setDefault#0;class#MainActivity#0" />
             <element signature="method#checkText#0;class#MainActivity#0" />
+            <element signature="e#10790#10827#0" expanded="true" />
+            <element signature="e#11074#11111#0" expanded="true" />
+            <element signature="e#11524#11561#0" expanded="true" />
+            <element signature="e#11932#11969#0" expanded="true" />
+            <element signature="e#12338#12375#0" expanded="true" />
             <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
             <element signature="method#save#0;class#MainActivity#0" />
+            <element signature="e#13311#13353#0" expanded="true" />
+            <element signature="e#13462#13499#0" expanded="true" />
             <element signature="method#showErrors#0;class#MainActivity#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_avatar.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_avatar.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3008,34 +3040,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_avatar.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_avatar.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3062,9 +3094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3076,23 +3105,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/utils/ValidationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3144,158 +3169,70 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_form.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="3961">
           <caret line="233" column="51" selection-start-line="233" selection-start-column="51" selection-end-line="233" selection-end-column="51" />
-          <folding>
-            <element signature="e#650#671#0" expanded="true" />
-            <element signature="e#1104#1123#0" expanded="true" />
-            <element signature="e#1712#1732#0" expanded="true" />
-            <element signature="e#2513#2531#0" expanded="true" />
-            <element signature="e#3030#3058#0" expanded="true" />
-            <element signature="e#3681#3701#0" expanded="true" />
-            <element signature="e#4504#4527#0" expanded="true" />
-            <element signature="e#5140#5169#0" expanded="true" />
-            <element signature="e#5967#5991#0" expanded="true" />
-            <element signature="e#6384#6406#0" expanded="true" />
-            <element signature="e#7132#7157#0" expanded="true" />
-            <element signature="e#7935#7955#0" expanded="true" />
-            <element signature="e#8346#8364#0" expanded="true" />
-            <element signature="e#9118#9139#0" expanded="true" />
-          </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_avatar.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_avatar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
-          <folding>
-            <element signature="e#696#727#0" expanded="true" />
-            <element signature="e#6958#6980#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_profile.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_avatar.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_avatar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#3205#3227#0" expanded="true" />
-            <element signature="e#3787#3809#0" expanded="true" />
-            <element signature="e#4369#4391#0" expanded="true" />
-            <element signature="e#4951#4973#0" expanded="true" />
-            <element signature="e#5533#5555#0" expanded="true" />
-            <element signature="e#6115#6137#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/GenericViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/BaseRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/GenericViewHolder.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/BaseRecyclerViewAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/data/local/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="170">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1237#1238#0" expanded="true" />
             <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/GenericAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="67" column="60" lean-forward="true" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivityRotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="method#avatarListeners#0;class#MainActivity#0" />
-            <element signature="method#changeAvatar#0;class#MainActivity#0" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" />
-            <element signature="method#setAvatar#0;class#MainActivity#0" />
-            <element signature="method#imeListener#0;class#MainActivity#0" />
-            <element signature="method#iconListeners#0;class#MainActivity#0" />
-            <element signature="method#focusListeners#0;class#MainActivity#0" />
-            <element signature="method#isFocused#0;class#MainActivity#0" />
-            <element signature="method#initViews#0;class#MainActivity#0" />
-            <element signature="method#setDefault#0;class#MainActivity#0" />
-            <element signature="method#checkText#0;class#MainActivity#0" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
-            <element signature="method#save#0;class#MainActivity#0" />
-            <element signature="method#showErrors#0;class#MainActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/base/GenericAdapter.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/os/Looper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -3361,14 +3298,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        <state relative-caret-position="816">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#selectAvatar#0;class#AvatarActivity#0" />
             <element signature="method#deselectImageView#0;class#AvatarActivity#0" />
             <element signature="method#initListeners#0;class#AvatarActivity#0" />
             <element signature="method#onCreateOptionsMenu#0;class#AvatarActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/es/iessaladillo/pedrojoya/pr05/ui/avatar/AvatarActivityRotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivityRotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_profile.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.0/1deaac9c124b19a14ebaf64780e7087d561541bd/appcompat-1.0.0-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/iessaladillo/pedrojoya/pr05/ui/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="174" column="55" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="55" />
+          <folding>
+            <element signature="e#1107#1140#0" expanded="true" />
+            <element signature="method#avatarListeners#0;class#MainActivity#0" />
+            <element signature="method#changeAvatar#0;class#MainActivity#0" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" />
+            <element signature="method#setAvatar#0;class#MainActivity#0" />
+            <element signature="method#imeListener#0;class#MainActivity#0" />
+            <element signature="method#iconListeners#0;class#MainActivity#0" />
+            <element signature="method#focusListeners#0;class#MainActivity#0" />
+            <element signature="method#isFocused#0;class#MainActivity#0" />
+            <element signature="method#setupReciclerViews#0;class#MainActivity#0" />
+            <element signature="method#setDefault#0;class#MainActivity#0" />
+            <element signature="method#checkText#0;class#MainActivity#0" />
+            <element signature="e#10790#10827#0" expanded="true" />
+            <element signature="e#11074#11111#0" expanded="true" />
+            <element signature="e#11524#11561#0" expanded="true" />
+            <element signature="e#11932#11969#0" expanded="true" />
+            <element signature="e#12338#12375#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
+            <element signature="method#save#0;class#MainActivity#0" />
+            <element signature="e#13311#13353#0" expanded="true" />
+            <element signature="e#13462#13499#0" expanded="true" />
+            <element signature="method#showErrors#0;class#MainActivity#0" />
           </folding>
         </state>
       </provider>

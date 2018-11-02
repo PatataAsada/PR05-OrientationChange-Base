@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -57,8 +58,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setupReciclerViews();
+        setupViews(savedInstanceState);
         initListeners();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelable("AVATAR",avatar);
     }
 
     private void initListeners() {
@@ -165,11 +172,17 @@ public class MainActivity extends AppCompatActivity {
         else lbl.setTypeface(Typeface.DEFAULT);
     }
 
-    private void setupReciclerViews() {
+    private void setupViews(Bundle savedInstanceState) {
         //AVATAR
         imgAvatar = ActivityCompat.requireViewById(this, R.id.imgAvatar);
         lblAvatar = ActivityCompat.requireViewById(this, R.id.lblAvatar);
-        setDefault(imgAvatar, lblAvatar);
+        if(savedInstanceState == null){
+            setDefault(imgAvatar, lblAvatar);
+        }
+        else{
+            avatar = savedInstanceState.getParcelable("AVATAR");
+            setAvatar(avatar);
+        }
         //NAME
         lblName = ActivityCompat.requireViewById(this, R.id.lblName);
         lblName.setTypeface(Typeface.DEFAULT_BOLD);
