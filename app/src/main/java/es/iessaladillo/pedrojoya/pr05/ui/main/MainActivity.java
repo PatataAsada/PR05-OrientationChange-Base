@@ -63,6 +63,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        //Text change Listeners
+        textChangedListeners();
+    }
+
+    @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable("AVATAR",avatar);
@@ -71,9 +78,6 @@ public class MainActivity extends AppCompatActivity {
     private void initListeners() {
         //Focus Listeners
         focusListeners();
-
-        //Text change Listeners
-        textChangedListeners();
 
         //Icon press listeners.
         iconListeners();
